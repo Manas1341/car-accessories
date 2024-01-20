@@ -1,0 +1,75 @@
+.page-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.page-content-image {
+  width: 100%;
+  height:83%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.page-content-image:hover {
+  transform: scale(1.05); /* Apply a scale transformation on hover */
+}
+
+.image-card {
+  width: calc(33.33% - 20px);
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  height: 450px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;; 
+}
+.image-card:hover {
+  transform: scale(1.001); /* Apply a scale transformation on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.card-content {
+  background-color: #f4f4f4;
+  height: 100%;
+}
+
+.card-content p{
+  margin: 0px;
+  padding: 5px;
+}
+/* Add this to your SecondPage.css */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.lightbox-content {
+  width: 600px; /* Adjust the width as needed */
+  height: 600px; /* Adjust the height as needed */
+  background: black; /* Background color for the lightbox */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a box shadow */
+}
+
+.lightbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+

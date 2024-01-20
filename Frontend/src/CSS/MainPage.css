@@ -1,0 +1,136 @@
+.header{
+    height: 90px;
+    width: 100%;
+    background-color: #D7CBCB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Navbar-2{
+    list-style: none;
+    right: 250px;
+}
+
+.logo-img{
+    height: 70px;
+}
+
+.nav-item{
+    padding: 15px;
+}
+
+.link-item{
+    text-decoration: none;
+    color:#5E5E5E;
+}
+
+.link-item:hover {
+    color: black; 
+  }
+
+.img{
+    height: 517px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-img{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.diff-brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-img{
+    height: 140px;
+    width: 180px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+}
+.brand-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+}
+.speacility{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0;
+}
+.spec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spec-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding-left: 100px;
+}
+.text-center {
+    text-align: center; /* Center text within its container */
+  }
+
+.spec-image{
+    height: 100px;
+    width: 100px;
+}  
+
+.down-image{
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: #404040;
+    height:288px;
+    width: 100%;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.sec-footer{
+
+}
+
+::-webkit-scrollbar {
+    width: 4px; /* You can adjust the width as needed */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the scrollbar track */
+  }
+  
